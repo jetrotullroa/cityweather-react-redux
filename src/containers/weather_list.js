@@ -15,10 +15,10 @@ class WeatherList extends React.Component {
 
     return (
       <tr key={cityId}>
-        <td>{cityName}</td>
-        <td><Chart color="red" data={cityTemps} /></td>
-        <td><Chart color="green" data={cityPressures} /></td>
-        <td><Chart color="blue" data={cityHumidities} /></td>
+        <td className="col-md-3">{cityName}</td>
+        <td className="col-md-3"><Chart color="red" data={cityTemps} unit="K" /></td>
+        <td className="col-md-3"><Chart color="green" data={cityPressures} unit="hPa" /></td>
+        <td className="col-md-3"><Chart color="blue" data={cityHumidities} unit="%" /></td>
       </tr>
     )
   }
@@ -30,10 +30,10 @@ class WeatherList extends React.Component {
       <table className="table table-hover">
         <thead>
           <tr>
-            <th>City</th>
-            <th>Temperature</th>
-            <th>Pressure</th>
-            <th>Humidity</th>
+            <th className="col-md-3">City</th>
+            <th className="col-md-3">Temperature</th>
+            <th className="col-md-3">Pressure</th>
+            <th className="col-md-3">Humidity</th>
           </tr>
         </thead>
         <tbody>
