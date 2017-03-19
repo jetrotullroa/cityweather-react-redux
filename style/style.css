@@ -3,9 +3,18 @@
 }
 
 .input-group input {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .content {
   margin: 1rem 0;
+}
+
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+svg {
+  height: 150px;
 }
