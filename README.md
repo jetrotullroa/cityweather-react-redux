@@ -15,5 +15,4 @@
 
   > go to localhost:8080
 
-	> Then search for your favorite cities (within USA only)
-```
+	> Then search for your favorite cities (US only)
